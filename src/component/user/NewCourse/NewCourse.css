@@ -1,0 +1,21 @@
+ol.styled  {
+    list-style: none;
+    counter-reset: list-counter;
+}
+ol.styled li {
+    counter-increment: list-counter;
+}
+ol.styled li:before {
+    content: counter(list-counter);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 50%;
+}
+
+.custom-list {
+    list-style-type: disc;
+  }

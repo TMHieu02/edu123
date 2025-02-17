@@ -1,0 +1,37 @@
+.hovered-div {
+  position: absolute;
+  padding: 1rem;
+  right: -21rem;
+  top: 0;
+  width: 20rem;
+  background-color: white;
+  border: 0.5px solid #808080;
+  /* Màu xám */
+  z-index: 2;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+
+.triangle-border {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 16px 16px 16px 0;
+  border-color: transparent #000000 transparent transparent;
+  position: absolute;
+  left: -16px;
+  top: 79px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #FFFFFF transparent transparent;
+  position: absolute;
+  left: -15px;
+  top: 80px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.1));
+}

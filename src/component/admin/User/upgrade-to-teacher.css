@@ -1,0 +1,14 @@
+.manager-user-layout {
+    display: flex; /* Use flexbox to layout the children */
+    min-height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px; /* Set the width of the sidebar */
+    /* Other styles for the sidebar */
+  }
+  
+  .manager-user-main-content {
+    margin-left: 300px; 
+    margin-top: 50px;
+  }

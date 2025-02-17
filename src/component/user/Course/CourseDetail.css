@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  #fixed-div {
+    display: none;
+    /* Ẩn thẻ div khi màn hình được thu nhỏ */
+  }
+
+  #hidden-div {
+    display: block !important;
+    /* Hiển thị thẻ div khi màn hình được thu nhỏ */
+  }
+}
+
+.img-fluid {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.icon-tag {
+  position: absolute;
+  top: 50%;
+  /* Di chuyển phần tử lên trên */
+  left: 50%;
+  /* Di chuyển phần tử sang trái */
+  transform: translate(-50%, -50%);
+  /* Dịch chuyển phần tử ngược lại 50% của nó */
+  z-index: 1000;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.circle-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  /* Độ rộng và chiều cao của biểu tượng */
+  height: 60px;
+  border-radius: 50%;
+  /* Tạo hình tròn */
+  background-color: white;
+  /* Màu nền trắng */
+}

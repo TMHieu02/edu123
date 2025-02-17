@@ -1,0 +1,178 @@
+
+
+.center_body {
+    width: 80%;
+    margin: 0 auto;  /* căn giữa */
+  }
+  
+  .overlay { 
+    z-index: 1; 
+  }
+  
+  body {
+      color: #566787;
+      background: #DCDCDC;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  .color-background {
+    background: #DCDCDC;
+  }
+  
+  a:hover {
+      background-color: #A9A9A9;
+    }
+  
+  .text-link {
+      color: black;
+      font-weight: bold ;
+  }  
+  
+  .pre {
+      white-space: pre-line; /* Hoặc sử dụng white-space: pre-wrap; tùy theo yêu cầu của bạn */    
+  }
+  
+  ul {
+      list-style-type: none;
+  }
+  
+  .float-right {
+      float: right;
+  }
+  
+  .float-left {
+    float: left;
+  }
+  
+  a {
+      color: #000; 
+      text-decoration: none;    
+      font-size: 16px;
+  }
+  
+  a:hover {
+      color: #1E90FF; 
+  }
+    
+  /* gotop */
+  #goTop {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+    }
+    
+    #goTop a {       
+      color: black;
+      width: 50px;
+      height: 50px;     
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      display: flex; 
+      transition: opacity 0.3s linear;
+    }
+    
+    #goTop a:hover {
+      opacity: 0.7;
+    }
+  
+    #goTop i {
+      font-size: 24px; /* Đặt kích thước 24px hoặc kích thước bạn mong muốn */
+    }
+    
+  .img-background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+  
+  
+  .img-course {
+    width: 200px;
+    height: 120px;
+  }
+  
+  .width-course {
+    width: 250px;
+    height: 300px;
+  }
+  
+  .custom-margin {
+    margin-bottom: 20px; 
+  }
+  
+  .margin-button-header {
+    margin-right: 10px; 
+    margin-left: 10px; 
+  }
+  
+  
+  nav {
+    width: 280px;
+    position: absolute;  
+    background: white;
+    border-radius: 5px;
+    left: 170px;
+    box-shadow: 5px 7px 10px rgba(0,0,0,.5);
+  }
+  
+  nav ul {
+    position: relative;
+    list-style-type: none;
+  }
+  
+  nav ul li a {
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    font-size: 1.0em;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    padding: 5px ;
+    height: 50px;
+    transition: .5 ease;
+    border-radius: 0 10px;
+  }
+  
+  nav ul li a:hover{
+    background: #CCCCCC;
+    color: #fff;
+  }
+  
+  nav ul ul {
+    position: absolute;
+    left: 220px;
+    width: 200px;
+    top: 0;
+    display: none;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .1);
+    z-index: 1;
+  }
+  
+  nav ul .dropdown {
+    position: relative;
+  }
+  
+  nav ul .dropdown:hover ul {
+    display: initial;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .slideshow_homepage{
+    left: 480px;  
+    z-index: -1;
+  }
+  
+  .image-slideshow{
+    height: 320px;
+    width: 300px;  
+  }

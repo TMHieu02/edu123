@@ -1,0 +1,39 @@
+.load_comment {
+  list-style: none;
+  padding: 0;
+}
+
+.u-block-cmhv {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.block-hv {
+  display: flex;
+}
+
+.avatar {
+  width: 30px; /* Độ rộng mới của avatar */
+  height: 30px; /* Chiều cao mới của avatar */
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.rate-hv {
+  flex: 1;
+}
+
+.rate-hv p {
+  margin: 0;
+}
+
+/* Định dạng cho ngày và nội dung bình luận */
+.rate-hv p:nth-child(2),
+.rate-hv p:nth-child(3) {
+  color: #888;
+}
+
+/* Định dạng cho nội dung bình luận */
+.rate-hv p:nth-child(3) {
+  margin-bottom: 10px;
+}

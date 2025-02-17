@@ -1,0 +1,16 @@
+
+
+.text-container {
+                white-space: nowrap;
+                width: 200px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+        }
+
+        div.a {
+                white-space: nowrap;
+                width: 220px;
+                overflow: hidden;
+                text-overflow: ellipsis;                
+        }
+

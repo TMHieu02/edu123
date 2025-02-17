@@ -1,0 +1,20 @@
+// Trong file slices/courseSlice.js
+
+import { createSlice } from '@reduxjs/toolkit';
+
+const idSlice = createSlice({
+  name: 'id',
+  initialState: null, // Đảm bảo initialState không phải là undefined
+  reducers: {
+    setId: (state, action) => {
+      console.log('Action setId is called with payload:', action.payload);
+      return action.payload;
+    },
+  },
+});
+
+export const { setId } = idSlice.actions;
+
+export const selectId = (state) => state.id;
+
+export default idSlice.reducer;

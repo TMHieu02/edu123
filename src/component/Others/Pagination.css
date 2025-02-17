@@ -1,0 +1,46 @@
+/* Trong tệp Pagination.css */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .pagination a {
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    background-color: hsl(210, 16%, 93%) !important;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s, font-weight 0.3s;
+  }
+  
+  .pagination a:hover {
+    background-color: #eee;
+  }
+  
+  .pagination a.active {
+    background-color: #877e7e !important;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Thêm quy tắc cho nút trang hiện tại khi hover */
+  .pagination a.active:hover {
+    background-color: #007bff !important;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Thêm quy tắc cho nút trang không phải trang hiện tại */
+  .pagination a:not(.active):hover {
+    background-color: #767676;
+  }
+  

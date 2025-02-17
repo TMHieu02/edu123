@@ -1,0 +1,58 @@
+
+
+.center_body {
+    width: 80%;
+    margin: 0 auto;  /* căn giữa */
+  }
+  
+  .overlay { 
+    z-index: 1; 
+  }
+  
+  body {
+      color: #566787;
+      background: #DCDCDC;
+      font-family: 'Roboto', sans-serif;
+  }
+  
+  .color-background {
+    background: #DCDCDC;
+  }
+  
+  a:hover {
+      background-color: #A9A9A9;
+    }
+  
+  .text-link {
+      color: black;
+      font-weight: bold ;
+  }  
+  
+  .pre {
+      white-space: pre-line; /* Hoặc sử dụng white-space: pre-wrap; tùy theo yêu cầu của bạn */    
+  }
+  
+  ul {
+      list-style-type: none;
+  }
+  
+  .float-right {
+      float: right;
+  }
+  
+  .float-left {
+    float: left;
+  }
+  
+  .img-background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+  
+  
+  
+  
+
+ 
